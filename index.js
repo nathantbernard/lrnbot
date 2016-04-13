@@ -8,7 +8,7 @@
 
  var bot = require(__dirname + '/bot.js');
  var token = '212731053:AAHcv-Nlg52LCVqr-TAGKMEodl2NWM073Og';
- var webhookUrl = 'https://rocky-headland-41075.herokuapp.com/'
+ var webhookUrl = 'https://quiet-shore-48702.herokuapp.com/'
  var bot1 = new bot(process.env.TOKEN || token, process.env.WEBHOOK || webhookUrl);
 
 

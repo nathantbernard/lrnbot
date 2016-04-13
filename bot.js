@@ -2,7 +2,7 @@
  var API = require(__dirname + '/API.js')
  var bot = function(token, webhookUrl) {
      API.apply(this, arguments);
-     this.setWebhook(webhookUrl || 'https://rocky-headland-41075.herokuapp.com/');
+     this.setWebhook(webhookUrl || 'https://quiet-shore-48702.herokuapp.com/');
  }
  bot.prototype = API.prototype;
  bot.prototype.constructor = bot;
